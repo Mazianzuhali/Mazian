@@ -49,18 +49,18 @@ public class DataProvider {
 
     private static List<Motor>initDataMotor(Context ctx) {
         List<Motor> motors= new ArrayList<>();
-        motors.add(new Motor("Yamaha", "japan",
-                "motor jenis honda ini berasal dari pabrikan japan dan sangat banyak diminati oleh orang didunia dan model motor ini sangat banyak", R.drawable.yamaha));
+        motors.add(new Motor("toyota", "japan",
+                "mobil supra adalah mobil pabrikan toyota berasal dari japan", R.drawable.str));
         motors.add(new Motor("Honda", "Japan",
-                "Motor jenis honda ini berasal dari japan termasuk saigan dari pabrikan yamaha dan juga kebanyakan pangsa pasar motor di dunia dikuasai oleh honda.", R.drawable.honda));
-        motors.add(new Motor("KTM", "Austria",
-                "merupakan sebuah perusahaan multinasional yang menghasilkan berbagai macam produk sepeda motor. Perusahaan ini didirikan pada tahun 1934. Bermarkas di Mattighofen, Austria.", R.drawable.ktm));
-        motors.add(new Motor("DUCATI", "Italia",
-                "merupakan salah satu perusahaan produsen sepeda motor terkemuka asal Italia. Mereka adalah salah satu dari 2 pionir lainnya bersama dengan Harley-Davidson dan BMW. Sejak tahun 1970 Ducati selalu memproduksi sepeda motor dengan mesin desmodromic valve timing L-twin dan rangka teralis", R.drawable.ducati));
-        motors.add(new Motor("Petronas", "Japan",
-                "motor ini termasuk jenis baru karena terkanal pada balap moto gp di akhir tahun ini.", R.drawable.petronas));
-        motors.add(new Motor("Kawasaki", "Japan",
-                "dalah perusahaan otomotif roda dua asal Jepang yang memproduksi sepeda motor Kawasaki (OTR) di Indonesia   ", R.drawable.kawasaki));
+                "mobil ini merupakan keluaran dari honda yang memiliki 2 type salah satunya type R.", R.drawable.civic));
+        motors.add(new Motor("bmw", "eropa",
+                "BMW ini berasal dari pabrikan eropa dan terkenal s seriesnya.", R.drawable.bwm));
+        motors.add(new Motor("MUSTANG", "EROPA",
+                " mustang adalah mobil yang sangat terkenal karena masuk dalam film transformer dengan ciri khas warna kuning", R.drawable.mustang));
+        motors.add(new Motor("MERCEDES BENZ", "EROPA",
+                "merce adalah mobil yang terkenal karena pabrikan mobil ini sangat mengedepankan interior yang sangat indah.", R.drawable.merce));
+        motors.add(new Motor("TESLA", "AMERIKA",
+                " tesla adalah salah satu mobil listrik yang sangat terkenal  ", R.drawable.tesla));
         return motors;
     }
 
